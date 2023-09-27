@@ -1,141 +1,120 @@
-<div
-  class="max-w-screen h-[29rem] bg-gradient-to-t from-governor-bay-200 to-governor-bay-300 lg:h-screen"
->
-  <div class="max-w-screen flex h-32 items-center justify-center lg:h-44 lg:justify-start">
-    <img [src]="'assets/img/logo.svg'" class="h-14 lg:h-20 lg:pl-24" />
-  </div>
-
-  <div class="max-w-screen flex h-28 items-center justify-center lg:h-80">
-    <p class="text-center text-4xl font-extrabold text-governor-bay-900 lg:w-[85rem] lg:text-9xl">
-      Unlocking Social Confidence
-    </p>
-  </div>
-
-  <div class="max-w-screen flex h-28 items-center justify-center lg:h-56">
-    <p
-      class="w-4/5 text-center text-base font-semibold text-governor-bay-900 lg:w-[75rem] lg:text-4xl"
+<div class="min-h-screen">
+  <header
+    class="bg-gradient-to-t from-governor-bay-200 to-governor-bay-300 py-8 text-center lg:py-16"
+  >
+    <img [src]="'assets/img/logo.svg'" class="mx-auto h-14 lg:mx-0 lg:h-20 lg:pl-24" />
+    <h1
+      class="whitespace-pre-line py-6 text-4xl font-extrabold text-governor-bay-900 lg:mb-4 lg:py-16 lg:text-9xl"
     >
-      Empowering you to conquer social anxiety and build meaningful connections with confidence.
-    </p>
-  </div>
-
-  <div class="max-w-screen mb-20 flex h-24 items-center justify-center lg:h-28">
+      <div class="mx-auto lg:w-[85rem]">Unlocking Social Confidence</div>
+    </h1>
+    <div class="py-8 text-base font-semibold text-governor-bay-900 lg:py-16 lg:text-4xl">
+      <p class="mx-auto w-4/5 lg:w-[75rem]">
+        Empowering you to conquer social anxiety and build meaningful connections with confidence.
+      </p>
+    </div>
     <a
-      class="bg-outer-space-900 hover:bg-outer-space-700 flex h-16 w-64 items-center justify-center rounded-full lg:h-24 lg:w-96"
+      class="mt-4 inline-block rounded-full bg-outer-space-900 px-20 py-6 hover:bg-outer-space-700 lg:px-40 lg:py-12"
       href="https://mmha.org.my/find-help#find-a-therapist"
       target="_blank"
     >
       <p class="text-xl font-semibold text-governor-bay-200 lg:text-3xl">Need Help?</p>
     </a>
-  </div>
-</div>
-<div class="max-w-screen h-full bg-governor-bay-950">
-  <div class="max-w-screen flex h-fit items-center justify-center">
+  </header>
+
+  <section class="bg-governor-bay-950 text-center lg:pb-12">
     <img [src]="'assets/img/banner.svg'" class="max-w-screen" />
-  </div>
+    <h1 class="py-16 text-base font-semibold text-governor-bay-200 lg:mb-4 lg:text-4xl">
+      <div class="mx-auto w-4/5 lg:w-[70%]">
+        Social anxiety disorder (SAD) is an anxiety disorder where people fear being judged by
+        others and avoid social situations. It goes beyond normal nerves and can be highly
+        distressing and impairing.
+      </div>
+    </h1>
+  </section>
 
-  <div class="mx-auto flex h-64 max-w-[85%] items-center justify-center lg:h-64">
-    <p class="w-4/5 text-center text-base font-semibold text-governor-bay-200 lg:text-4xl">
-      Social anxiety disorder (SAD) is an anxiety disorder where people fear being judged by others
-      and avoid social situations. It goes beyond normal nerves and can be highly distressing and
-      impairing.
-    </p>
-  </div>
-
-  <div
-    class="mx-auto flex h-[32rem] max-w-[85%] flex-col items-center justify-center border-t-2 border-white lg:h-[40rem] lg:flex-row lg:justify-start"
-  >
+  <section class="bg-governor-bay-950 pb-6 lg:pb-12">
     <div
-      class="flex h-[15rem] items-center justify-center lg:h-[30rem] lg:w-[55rem] lg:justify-end"
+      class="container mx-auto flex flex-col items-center gap-10 border-t-2 border-white py-14 lg:flex-row lg:gap-20 lg:px-10 lg:py-28"
     >
-      <img [src]="'assets/img/factors.svg'" class="h-48 rounded-2xl lg:h-96" />
+      <div class="lg:w-1/2">
+        <img [src]="'assets/img/factors.svg'" class="h-48 rounded-2xl lg:h-96" />
+      </div>
+      <div class="lg:w-1/2">
+        <p class="pb-6 text-2xl font-semibold text-governor-bay-400 lg:text-6xl">
+          Factors Social Anxiety
+        </p>
+        <ul
+          class="list-outside list-disc text-base font-semibold text-governor-bay-200 lg:text-4xl"
+        >
+          <li>Genetic factors</li>
+          <li>Overprotective parenting</li>
+          <li>Limited social experiences</li>
+          <li>Memories of public humiliation</li>
+          <li>History of bullying or public humiliation</li>
+        </ul>
+      </div>
     </div>
     <div
-      class="flex h-[13rem] w-[23rem] flex-col items-center justify-center lg:h-[30rem] lg:w-[65rem]"
+      class="container mx-auto flex flex-col items-center gap-10 border-t-2 border-white py-14 lg:flex-row lg:gap-20 lg:px-10 lg:py-28"
     >
-      <p class="w-4/5 pb-6 text-2xl font-semibold text-governor-bay-400 lg:text-6xl">
-        Factors Social Anxiety
-      </p>
-      <ul
-        class="w-4/5 list-outside list-disc text-base font-semibold text-governor-bay-200 lg:text-4xl"
+      <div class="lg:hidden lg:w-1/2">
+        <img [src]="'assets/img/recognise.svg'" class="h-48 rounded-2xl lg:h-96" />
+      </div>
+      <div class="lg:w-1/2">
+        <p class="pb-6 text-2xl font-semibold text-governor-bay-400 lg:text-6xl">
+          Recognise Social Anxiety
+        </p>
+        <ul
+          class="list-outside list-disc text-base font-semibold text-governor-bay-200 lg:text-4xl"
+        >
+          <li>Fear of criticism.</li>
+          <li>Physical symptoms.</li>
+          <li>Avoiding social events.</li>
+          <li>Fear of embarrassment.</li>
+          <li>Occasional panic attacks.</li>
+          <li>Difficulty when observed.</li>
+          <li>Worrying about everyday activities.</li>
+        </ul>
+      </div>
+      <div class="hidden lg:block lg:w-1/2">
+        <img [src]="'assets/img/recognise.svg'" class="h-48 rounded-2xl lg:h-96" />
+      </div>
+    </div>
+    <div
+      class="container mx-auto flex flex-col items-center gap-10 border-t-2 border-white px-10 py-14 lg:flex-row lg:gap-20 lg:py-28"
+    >
+      <div class="lg:w-1/2">
+        <img [src]="'assets/img/overcome.svg'" class="h-48 rounded-2xl lg:h-96" />
+      </div>
+      <div class="lg:w-1/2">
+        <p class="pb-6 text-2xl font-semibold text-governor-bay-400 lg:text-6xl">
+          Overcome Social Anxiety
+        </p>
+        <ul
+          class="list-outside list-disc text-justify text-base font-semibold text-governor-bay-200 lg:text-4xl"
+        >
+          <li>
+            Reflect on your thoughts and behaviors in social situations like keeping a diary can
+            help.
+          </li>
+          <li>Practice relaxation techniques like stress-relieving breathing exercises.</li>
+          <li>Divide daunting situations into smaller steps to ease anxiety gradually.</li>
+          <li>Concentrate on what people are saying, instead of assuming the worst.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t-2 border-white bg-governor-bay-950 py-8 text-white">
+    <div class="container mx-auto text-center">
+      <a
+        class="text-xl text-blue-400 hover:text-blue-600"
+        href="https://ammarportfolio.com/"
+        target="_blank"
+        >ammarportfolio.com</a
       >
-        <li>Genetic factors</li>
-        <li>Overprotective parenting</li>
-        <li>Limited social experiences</li>
-        <li>Memories of public humiliation</li>
-        <li>History of bullying or public humiliation</li>
-      </ul>
+      <p class="pt-3">&copy; 2023 Sociaxity. All rights reserved.</p>
     </div>
-  </div>
-
-  <div
-    class="mx-auto flex h-[35rem] max-w-[85%] flex-col items-center justify-center border-t-2 border-white lg:h-[40rem] lg:flex-row lg:justify-start"
-  >
-    <div
-      class="flex h-[15rem] items-center justify-center lg:hidden lg:h-[30rem] lg:w-[55rem] lg:justify-end"
-    >
-      <img [src]="'assets/img/recognise.svg'" class="h-48 rounded-2xl lg:h-96" />
-    </div>
-    <div
-      class="flex h-[16rem] w-[23rem] flex-col items-center justify-center lg:h-[30rem] lg:w-[65rem]"
-    >
-      <p class="w-4/5 pb-6 text-2xl font-semibold text-governor-bay-400 lg:text-6xl">
-        Recognise Social Anxiety
-      </p>
-      <ul
-        class="w-4/5 list-outside list-disc text-base font-semibold text-governor-bay-200 lg:text-4xl"
-      >
-        <li>Fear of criticism.</li>
-        <li>Physical symptoms.</li>
-        <li>Avoiding social events.</li>
-        <li>Fear of embarrassment.</li>
-        <li>Occasional panic attacks.</li>
-        <li>Difficulty when observed.</li>
-        <li>Worrying about everyday activities.</li>
-      </ul>
-    </div>
-    <div class="hidden lg:flex lg:h-[30rem] lg:w-[55rem] lg:items-center lg:justify-start">
-      <img [src]="'assets/img/recognise.svg'" class="h-48 rounded-2xl lg:h-96" />
-    </div>
-  </div>
-
-  <div
-    class="mx-auto flex h-[38rem] max-w-[85%] flex-col items-center justify-center border-t-2 border-white lg:h-[40rem] lg:flex-row lg:justify-start"
-  >
-    <div
-      class="flex h-[15rem] items-center justify-center lg:h-[30rem] lg:w-[55rem] lg:justify-end"
-    >
-      <img [src]="'assets/img/overcome.svg'" class="h-48 rounded-2xl lg:h-96" />
-    </div>
-    <div
-      class="flex h-[19rem] w-[23rem] flex-col items-center justify-center lg:h-[30rem] lg:w-[65rem]"
-    >
-      <p class="w-4/5 pb-6 text-2xl font-semibold text-governor-bay-400 lg:text-6xl">
-        Overcome Social Anxiety
-      </p>
-      <ul
-        class="w-4/5 list-outside list-disc text-justify text-base font-semibold text-governor-bay-200 lg:text-4xl"
-      >
-        <li>
-          Reflect on your thoughts and behaviors in social situations like keeping a diary can help.
-        </li>
-        <li>Practice relaxation techniques like stress-relieving breathing exercises.</li>
-        <li>Divide daunting situations into smaller steps to ease anxiety gradually.</li>
-        <li>Concentrate on what people are saying, instead of assuming the worst.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div
-    class="max-w-screen flex h-[10rem] flex-col items-center justify-center border-t-2 border-white"
-  >
-    <img [src]="'assets/img/whiteLogo.svg'" class="h-14" />
-    <a
-      class="text-xl text-blue-400 hover:text-blue-600"
-      href="https://ammarportfolio.com/"
-      target="_blank"
-      >ammarportfolio.com</a
-    >
-    <p class="text-white">© 2023 ALL RIGHTS RESERVED.</p>
-  </div>
+  </footer>
 </div>
